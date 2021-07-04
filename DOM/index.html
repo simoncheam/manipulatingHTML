@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating HTML - DOM</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container">  
+
+        <form class="form-group border border-primary rounded p-4"> 
+            
+            <!-- Input #1 -->
+            <!-- text area box from bootstrap -->
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label m-2">Text Box</label>
+            </div> 
+
+            <!-- text box from jQueryDrills -->
+            <input id="textInput" type="text"  class = "form-control m-2">
+            </input>
+        
+        <button type="submit" id="btnSubmit" class="btn btn-primary m-2">
+            Submit Text Box
+        </button>
+
+    
+     </form>
+    </div>
+
+    <!-- # 3 new div for hover color change-->
+
+    <div id = "hoverDiv" class= "m-2 p-2"> 
+        (new div #3)
+    </div>
+    <div id ="textPara" class ="col-4 m-2 p-2">
+        <p>
+            #4 Click on this paragraph to make it switch to a random color each click. 
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis laborum laudantium expedita incidunt. Dicta libero asperiores doloremque sit optio maiores sint dolorem odit. Debitis voluptatem recusandae voluptate dignissimos deserunt? Fun, right?
+        </p>
+
+    </div>
+    
+    <!-- nameBtn Div -->
+    <div>
+        <button type="submit" id="nameBtn" class="btn btn-danger m-2">
+        </button>
+    </div>
+
+    <!-- nameDiv -->
+    <div id="myNameDiv">
+    </div>
+
+
+    <!-- Friend Button Div -->
+    <div>
+        <button type="submit" id="friendBtn" class="btn btn-success m-2"> Yay Friends
+        </button>
+    </div>
+
+
+    <!-- ul div -->
+
+    <ul id ="friendUl">
+
+    </ul>
+
+    <script src = "app.js"></script>
+</body>
+</html>
